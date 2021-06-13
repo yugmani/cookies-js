@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Cookies in JavaScript!</h1>
+      </header>
+      <div class="main">
+        <form name="myForm" action="my-new">
+          <h2>Store Cookies</h2>
+          Enter name:<input type="text" name="customer" />
+          <input type="button" value="Set Cookie" onClick="writeCookie()" />
+        </form>
+
+        <form name="get-form" action="">
+          <h2>Get Cookies</h2>
+          <input type="button" value="Get Cookie" onclick="readCookie()" />
+        </form>
+        <form name="del-form" action="">
+          <h2>Remove Cookies</h2>
+          <input type="button" value="Del Cookie" onclick="deleteCookie()" />
+        </form>
+      </div>
+      <footer>
+        <a
+          href="https://docs.google.com/document/d/1MbAlLcjierjIvJQVBhjQ047HXj4D40xfieYQirGTnkY/edit#"
+          >Source: Cookies in JavaScript</a
+        >
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
